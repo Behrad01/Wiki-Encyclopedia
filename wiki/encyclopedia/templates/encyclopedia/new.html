@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block body %}
+    <form action="{% url 'new' %}" method="POST">
+        {% csrf_token %}
+
+        <p>Title:</p>
+        <input type="text" name="title">
+
+        <p>Content:</p>
+        <textarea name="content"></textarea>
+
+        <input type="submit">
+    </form>
+{% endblock %}
