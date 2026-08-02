@@ -56,7 +56,7 @@ The search system allows users to find entries by searching for their titles or 
 Clone the repository:
 
 ```bash
-git clone https://github.com/Behrad01/wiki-encyclopedia.git
+git clone https://github.com/Behrad01/Wiki-Encyclopedia.git
 ```
 
 Navigate to the project folder:
